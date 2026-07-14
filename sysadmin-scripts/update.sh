@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# TO Check contribution is countiog or not
-
 release_file=/etc/os-release
 logfile=/var/log/updater.log
 errorlog=/var/log/updater_errors.log
