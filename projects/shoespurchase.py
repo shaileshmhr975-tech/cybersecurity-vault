@@ -7,7 +7,7 @@ medium = shoes("nike",25)
 high = shoes("Adidas",100)
 
 try:
-	shoe_budget =float(input("what is your budget?:))
+	shoe_budget =float(input("what is your budget?:"))
 	
 except (ValueError):
 	exit("please Enter number1")

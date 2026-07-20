@@ -14,10 +14,10 @@ class shoes:
 	def buy(self, budget):
 		self.budget_check(budget)
 		
-		if budget >=self.price():
+		if budget >=self.price:
 			print(f"You can cop some {self.name}")
 		if budget ==self.price:
 			print("You have exactly enough money for these shoes")
 		else:
-			print("You can buy these shoes and have some ${self.change(budget)} left over")
+			print(f"You can buy these shoes and have some ${self.change(budget)} left over")
 		exit("Thanks for using our shoes budget app")
