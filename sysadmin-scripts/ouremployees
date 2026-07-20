@@ -5,5 +5,6 @@ from Employees import Employees
 e1 = Employees("Bob", "Sales", "Diractor of sales", 10000, 20)
 e2 = Employees("Grim Reaper", "cloud storage", "SOC Analysist", 99999999, 15)
 
-print(e1.name)
-print(e2.salary)
+print(e2.name)
+print(e2.role)
+print(e1.eligible_for_retirement())
