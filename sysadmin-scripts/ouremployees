@@ -4,7 +4,9 @@ from Employees import Employees
 
 e1 = Employees("Bob", "Sales", "Diractor of sales", 10000, 20)
 e2 = Employees("Grim Reaper", "cloud storage", "SOC Analysist", 99999999, 15)
+e3 = Employees("Naruto", "Hidden leaf", "hokage", 890, 43)
 
 print(e2.name)
 print(e2.role)
 print(e1.eligible_for_retirement())
+print(e3.role)
